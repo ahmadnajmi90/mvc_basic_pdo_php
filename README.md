@@ -15,8 +15,7 @@ This is a simple MVC-based PHP CRUD application.
 2. **Set Up the Database:**
    - Open `phpMyAdmin` in your browser.
    - Create a new database called `pdo_crud`.
-   - Import the provided SQL file (if available) to create the `users` table.
-   - Alternatively, create the `users` table manually with the following structure:
+   - Create the `users` table manually with the following structure:
      ```sql
      CREATE TABLE users (
          id INT AUTO_INCREMENT PRIMARY KEY,
